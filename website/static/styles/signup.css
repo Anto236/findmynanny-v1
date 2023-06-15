@@ -1,0 +1,25 @@
+.signup-button .popover {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.signup-button:hover .popover {
+    display: block;
+}
+
+.signup-button .popover ul {
+    list-style: none;
+    padding: 0;
+}
+
+.signup-button .popover h2 {
+    font-size: 16px;
+}

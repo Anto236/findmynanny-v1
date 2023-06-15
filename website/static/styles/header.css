@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+
+
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}

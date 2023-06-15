@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Nanny Bookings{% endblock %}
+
+{% block content %}
+{% if bookings %}
+  <h3>Bookings</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Family Email</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Job Description</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for booking in bookings %}
+        <tr>
+          <td>{{ booking.family.email }}</td>
+          <td>{{ booking.start_date }}</td>
+          <td>{{ booking.end_date }}</td>
+          <td>{{ booking.job_description }}</td>
+          <td>{{ booking.status }}</td>
+          <td>
+            {% if booking.status == 'pending' %}
+              <form method="POST">
+                <input type="hidden" name="booking_id" value="{{ booking.id }}">
+                <input type="hidden" name="status" value="accepted">
+                <button type="submit" class="btn btn-success">Accept</button>
+              </form>
+              <form method="POST">
+                <input type="hidden" name="booking_id" value="{{ booking.id }}">
+                <input type="hidden" name="status" value="rejected">
+                <button type="submit" class="btn btn-danger">Reject</button>
+              </form>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}
+{% endblock %}

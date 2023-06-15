@@ -1,0 +1,59 @@
+/* fam_reg.css */
+
+.registration_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-creation h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-creation label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.profile-creation input[type="text"],
+.profile-creation input[type="email"],
+.profile-creation input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.profile-creation button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-creation label[for="fileUpload"],
+.profile-creation input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.profile-creation button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile-creation select,
+.profile-creation label {
+    margin-bottom: 10px;
+}

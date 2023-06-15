@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    margin-top: 0;
+    border-top: 1px solid #CCCCCC;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons button {
+    border: none;
+    background-color: transparent;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    margin-left: 10px;
+}

@@ -1,0 +1,55 @@
+/* login.css */
+
+.login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.login-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-section input[type="email"],
+.login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-section button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-section button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.login-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-section a:hover {
+    text-decoration: underline;
+}

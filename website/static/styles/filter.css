@@ -1,0 +1,76 @@
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.filters a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px 15px;
+}
+
+.filters a:hover {
+    color: white;
+    background-color: lightgrey;
+}
+
+.filters .homepage-button {
+    margin-right: 10px;
+    margin-left: 50px;
+    /* Adjust the spacing between the home button and other buttons */
+}
+
+.filters .nanny-button,
+.filters .family-button,
+.filters .booking-button {
+    margin-right: 10px;
+    /* Move the buttons to the left side and adjust the spacing */
+}
+
+.filters input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: auto;
+}
+
+.filters .search-button {
+    font-size: 18px;
+    background-color: transparent;
+    color: grey;
+    height: 48px;
+    width: 48px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    margin-right: auto;
+    /* Remove the default focus outline */
+}
+
+.filters .search-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.filters .search-button:hover {
+    opacity: 0.9;
+    background-color: lightgrey;
+    /* Set the hover background color to red */
+    color: white;
+    /* Set the hover text color to white */
+}

@@ -1,0 +1,39 @@
+.registration_container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.booking-creation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.booking-creation ul li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.booking-creation ul li span {
+    font-weight: bold;
+}
+
+.booking-creation .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.booking-creation .buttons button:hover {
+    background-color: #45a049;
+    padding: 10px 2opx;
+}

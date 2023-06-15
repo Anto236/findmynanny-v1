@@ -1,0 +1,118 @@
+/* landing.css */
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.description {
+    text-align: center;
+    margin-top: 10px;
+    max-width: 100%;
+    margin-left: 100px;
+}
+
+.description h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+    /* Red color */
+    margin-bottom: 10px;
+    animation: blink 2s infinite;
+}
+
+.description p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .description {
+        margin-top: 30px;
+    }
+
+    .description h1 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+
+    .description p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+.about {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.about h2 {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.about a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
+
+.team-members {
+    margin-top: 20px;
+}
+
+.team-members h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.team-members ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-members li {
+    margin-bottom: 10px;
+}
+
+.team-members li a {
+    display: block;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team-members li a:hover {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+/* .dropdown-item#nannySignUp:hover {
+    background-color: yellow;
+}
+
+.dropdown-item#parentSignUp:hover {
+    background-color: lightblue;
+} */
